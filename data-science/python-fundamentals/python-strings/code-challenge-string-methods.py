@@ -2,7 +2,7 @@
 
 # Python Fundamentals
 # Python Strings
-# Code Challenge: String methods
+# Code Challenge: String Methods
 
 
 # --------------- Challenge 1 --------------- #
