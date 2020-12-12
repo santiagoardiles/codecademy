@@ -1,3 +1,6 @@
+# Python functions: Medical insurance.
+
+
 # Calculates insurance cost.
 def calculate_insurance_cost(name, age, sex, bmi, num_of_children, smoker):
     insurance_cost = (
