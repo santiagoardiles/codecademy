@@ -1,10 +1,10 @@
-# --------------  Codecademy. -------------- #
-#                                            #
-#     PATH: Computer Science.                #
-#     TRACK: Linear Data Structures.         #
-#     LESSON: Linked Lists in Python.        #
-#                                            #
-# --------------  Codecademy. -------------- #
+# --------------- Codecademy. --------------- #
+#                                             #
+#     PATH: Computer Science.                 #
+#     TRACK: Linear Data Structures.          #
+#     LESSON: Linked Lists in Python.         #
+#                                             #
+# --------------- Codecademy. --------------- #
 
 
 # New class `Node`.

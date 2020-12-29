@@ -1,4 +1,13 @@
-# Challenge 1.
+# --------------- Codecademy. --------------- #
+#                                             #
+#     PATH: Computer Science.                 #
+#     TRACK: Python Fundamentals.             #
+#     LESSON: Code Challenge: Loops.          #
+#                                             #
+# --------------- Codecademy. --------------- #
+
+
+# ----- Challenge 1. ----- #
 def divisible_by_ten(nums):
     count = 0
 
@@ -9,7 +18,7 @@ def divisible_by_ten(nums):
     return count
 
 
-# Challenge 2.
+# ----- Challenge 2. ----- #
 def add_greetings(names):
     greetings = []
 
@@ -19,7 +28,7 @@ def add_greetings(names):
     return greetings
 
 
-# Challenge 3.
+# ----- Challenge 3. ----- #
 def delete_starting_evens(lst):
     for item in lst:
         if item % 2 == 0:
@@ -30,7 +39,7 @@ def delete_starting_evens(lst):
     return lst
 
 
-# Challenge 4.
+# ----- Challenge 4. ----- #
 def odd_indices(lst):
     new_lst = []
 
@@ -40,7 +49,7 @@ def odd_indices(lst):
     return new_lst
 
 
-# Challenge 5.
+# ----- Challenge 5. ----- #
 def exponents(bases, powers):
     answer = []
 
@@ -51,7 +60,7 @@ def exponents(bases, powers):
     return answer
 
 
-# Challenge 6.
+# ----- Challenge 6. ----- #
 def larger_sum(lst1, lst2):
     sum1 = 0
     sum2 = 0
@@ -68,7 +77,7 @@ def larger_sum(lst1, lst2):
         return lst2
 
 
-# Challenge 7.
+# ----- Challenge 7. ----- #
 def over_nine_thousand(lst):
     count = 0
 
@@ -81,7 +90,7 @@ def over_nine_thousand(lst):
     return count
 
 
-# Challenge 8.
+# ----- Challenge 8. ----- #
 def max_num(nums):
     greatest = nums[0]
 
@@ -92,7 +101,7 @@ def max_num(nums):
     return greatest
 
 
-# Challenge 9.
+# ----- Challenge 9. ----- #
 def same_values(lst1, lst2):
     duplicates = []
 
@@ -104,7 +113,7 @@ def same_values(lst1, lst2):
     return duplicates
 
 
-# Challenge 10.
+# ----- Challenge 10. ----- #
 def reversed_list(lst1, lst2):
     j = len(lst2) - 1
 
@@ -117,7 +126,7 @@ def reversed_list(lst1, lst2):
     return True
 
 
-# Testing.
+# ----- Testing. ----- #
 print(add_greetings(["Owen", "Max", "Sophie"]))
 
 print(divisible_by_ten([20, 25, 30, 35, 40]))

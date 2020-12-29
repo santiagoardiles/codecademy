@@ -1,3 +1,12 @@
+# --------------- Codecademy. --------------- #
+#                                             #
+#     PATH: Computer Science.                 #
+#     TRACK: Python Fundamentals.             #
+#     PROJECT: Carly's clippers.              #
+#                                             #
+# --------------- Codecademy. --------------- #
+
+
 # Starting code.
 hairstyles = [
     "bouffant",
