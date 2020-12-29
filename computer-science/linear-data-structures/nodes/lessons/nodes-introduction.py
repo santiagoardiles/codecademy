@@ -1,7 +1,11 @@
-# ------- Codecademy ------- #
-# Path: Computer Science
-# Track: Linear Data Structures
-# Lesson: Nodes in Python
+# --------------  Codecademy. -------------- #
+#                                            #
+#     PATH: Computer Science.                #
+#     TRACK: Linear Data Structures.         #
+#     LESSON: Nodes in Python.               #
+#                                            #
+# --------------  Codecademy. -------------- #
+
 
 # New class `Node`.
 class Node:
