@@ -1,7 +1,11 @@
 <?php
-// Codecademy
-// Learn PHP
-// Lessons: Introduction to PHP functions
+// --------------- Codecademy. --------------- //
+//                                             //
+//     PATH: Computer Science.                 //
+//     TRACK: Learn PHP.                       //
+//     LESSON: PHP Functions.                  //
+//                                             //
+// --------------- Codecademy. --------------- //
 
 
 // ------- Iteration 1. ------- //
