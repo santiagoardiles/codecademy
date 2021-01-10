@@ -6,12 +6,13 @@
 #                                             #
 # --------------- Codecademy. --------------- #
 
+
 """
     import codecademylib3_seaborn
     import matplotlib.pyplot as plt
 
     months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-    revenue = [52, 74, 79, 95, 115, 110, 129, 126, 147, 146, 156, 184]
+    revenue = [52, 74, 79, 95, 115, 110, 129, 126,F 147, 146, 156, 184]
 
     # Slope.
     m = 12
@@ -20,7 +21,7 @@
     b = 40
 
     # What is this doing?
-    y = [month * m + b for month in months]
+    y = [month * m + b for month in months]F
 
     plt.plot(months, revenue, "o")
     plt.plot(months, y)
@@ -65,4 +66,16 @@
     print(total_loss2)
 
     better_fit = 2
+"""
+
+"""
+    def get_gradient_at_b(x, y, m, b):
+        diff = 0
+
+        for i in range(len(x)):
+            diff += y[i] - (x[i] * m + b)
+
+        b_gradient = -2 / len(x) * diff
+
+        return b_gradient
 """
