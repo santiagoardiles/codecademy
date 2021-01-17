@@ -33,7 +33,9 @@
 
 
 """
-    # Loss.
+    # --------------------
+    # Loss
+    # --------------------
 
     x = [1, 2, 3]
     y = [5, 1, 3]
@@ -45,16 +47,10 @@
     # y = 0.5x + 1
     m2 = 0.5
     b2 = 1
-
-    # --------------------
-    # Iteration 1 and 2.
-    # --------------------
+    
     y_predicted1 = [x_value * m1 + b1 for x_value in x]
     y_predicted2 = [x_value * m2 + b2 for x_value in x]
 
-    # --------------------
-    # Iteration 3 and 4.
-    # --------------------
     total_loss1 = 0
     for i in range(len(y)):
     total_loss1 += (y[i] - y_predicted1[i]) ** 2
@@ -63,9 +59,6 @@
     for i in range(len(y)):
     total_loss2 += (y[i] - y_predicted2[i]) ** 2
 
-    # --------------------
-    # Iteration 5.
-    # --------------------
     print(total_loss1)
     print(total_loss2)
 
@@ -74,7 +67,10 @@
 
 
 """
+    # --------------------
     # Gradient Descent for Intercept.
+    # --------------------
+    
     
     def get_gradient_at_b(x, y, m, b):
         diff = 0
@@ -89,7 +85,10 @@
 
 
 """
+    # --------------------
     # Gradient Descent for Slope.
+    # --------------------
+
 
     def get_gradient_at_m(x, y, m, b):
         diff = 0
@@ -108,7 +107,9 @@
 
 
 """ 
-    # Step function.
+    # --------------------
+    # Step Gradient function.
+    # --------------------
 
     def step_gradient(x, y, b_current, m_current):
         b_gradient = get_gradient_at_b(x, y, b_current, m_current)
@@ -133,4 +134,43 @@
     b, m = step_gradient(months, revenue, b, m)
 
     print(b, m)
+"""
+
+
+"""
+    # --------------------
+    # Gradient Descent function.
+    # --------------------
+    
+    def gradient_descent(x, y, learning_rate, num_iterations):
+        b = 0
+        m = 0
+
+        for i in range(num_iterations):
+            b, m = step_gradient(b, m, x, y, learning_rate)
+
+        return [b, m]
+"""
+
+
+"""
+    # from gradient_descent_funcs import gradient_descent
+    import seaborn
+    import pandas as pd
+    import matplotlib.pyplot as plt
+
+    df = pd.read_csv("heights.csv")
+
+    X = df["height"]
+    y = df["weight"]
+
+    b, m = gradient_descent(X, y, num_iterations=1000, learning_rate=0.0001)
+
+    y_predictions = [m * x + b for x in X]
+
+    # ----- Plotting. ----- #
+    plt.plot(X, y, "o")
+    plt.plot(X, y_predictions, "o")
+
+    plt.show()
 """
