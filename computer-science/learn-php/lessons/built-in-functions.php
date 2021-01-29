@@ -24,3 +24,15 @@ echo var_dump($second);
 echo strrev(".pu ti peeK .taerg gniod er'uoY");
 echo strtolower("SOON, tHiS WILL Look NoRmAL.");
 echo str_repeat("\nThere's no place like home.\n", 3);
+
+
+// ------- Exercise 3. ------- //
+function calculateDistance($num1, $num2)
+{
+    return abs($num1 - $num2);
+}
+
+function calculateTip($num)
+{
+    return round($num + $num * 0.18);
+}
