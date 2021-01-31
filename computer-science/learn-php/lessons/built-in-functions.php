@@ -36,3 +36,12 @@ function calculateTip($num)
 {
     return round($num + $num * 0.18);
 }
+
+
+// ------- Exercise 4. ------- //
+echo getrandmax();
+echo "\n";
+echo rand();
+echo "\n";
+echo rand(1, 52);
+
